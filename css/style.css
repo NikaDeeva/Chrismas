@@ -1,0 +1,35 @@
+:root{
+    --text-color: #FFF;
+    --secondary-text-color: #5D5115;
+    --background-color: #F6B637;
+    --secondary-background-color: #948224;
+}
+header{
+    background-color: var(--background-color);
+}
+.header-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-img{
+    padding-top: 50px;
+}
+.header-div-text{
+    display: flex;
+    justify-content: center;
+}
+.header-text{
+    color: var(--secondary-text-color);
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+font-weight: 600;
+padding-bottom: 100px;
+}
+.header-text:first-child{
+    margin-right: 65px;
+}
+.first{
+    
+}
