@@ -31,5 +31,79 @@ padding-bottom: 100px;
     margin-right: 65px;
 }
 .first{
-    
+    background-color: var(--background-color);
+    background-image: url(/img/party.webp);
+}
+.first-title{
+    color: var(--text-color);
+    text-align: center;
+font-family: 'Raleway';
+font-size: 82px;
+font-weight: 700;
+padding-bottom: 25px;
+}
+.first-span{
+    color: var(--secondary-text-color);
+    text-align: center;
+font-family: 'Raleway';
+font-size: 28px;
+font-weight: 500;
+line-height: 172.9%;
+display: flex;
+justify-content: center;
+padding-bottom: 792px;
+}
+.second{
+    background-color: var(--background-color);
+}
+.second-title{
+    color: var(--secondary-text-color);
+    text-align: center;
+font-family: 'Raleway';
+font-size: 48px;
+font-weight: 600;
+}
+.second-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.second-item-title{
+    color: var(--text-color);
+    text-align: center;
+font-family: 'Montserrat';
+font-size: 40px;
+font-weight: 700;
+}
+.second-item-text{
+    color: var(--secondary-text-color);
+    text-align: center;
+font-family: 'Raleway';
+font-size: 32px;
+font-weight: 600;
+line-height: 140.4%;
+}
+ .one, .two{
+    padding-top: 98px;
+} 
+.one{
+    margin-right: 400px;
+}
+.one::before{
+    content: '';
+    display: block;
+    width: 231px;
+height: 228px;
+    background-image: url(/img/ball.webp);
+}
+.two::before{
+    content: '';
+    display: block;
+    width: 231px;
+height: 228px;
+background-image: url(/img/present.webp);
+}
+.three{
+    padding-top: 305px;
+    margin-left: 400px;
 }
