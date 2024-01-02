@@ -1,0 +1,28 @@
+.header{
+    background-color: $primaryBackground;
+    &__nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;   
+    }
+    &__img{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    &__div-text{
+        display: flex;
+        justify-content: center;
+    }
+    &__text{
+        color: $textColor;
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+font-weight: 600;
+padding-bottom: 100px;
+}
+&__text:first-child{
+    margin-right: 65px;
+}
+    }

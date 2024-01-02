@@ -11,49 +11,83 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-    <header>
-<nav class="header-nav">
-    <div class="header-img">
+    <header class="header">
+        <div class="container">
+<nav class="header__nav">
+    <div class="header__img">
         <img src="img/headerimg.webp" alt="">
     </div>
-    <div class="header-div-text">
-        <p class="header-text">Home</p>
-        <p class="header-text">RSVP</p>
+    <div class="header__div-text">
+        <p class="header__text">Home</p>
+        <p class="header__text">RSVP</p>
     </div>
 </nav>
+</div>
     </header>
     <main>
-        <section class="first">
-         <h1 class="first-title">‘Tis the Season for<br> a Celebration</h1>
-         <span class="first-span">Moreno Family Christmas Party<br> Dec 19, 2035</span>
+        <section class="hero">
+            <div class="container">
+         <h1 class="hero__title">‘Tis the Season for<br> a Celebration</h1>
+         <span class="hero__span">Moreno Family Christmas Party<br> Dec 19, 2035</span>
         </section>
-        <section class="second">
-            <h3 class="second-title">Please join us for a jolly night of<br>
+    </div>
+        <section class="about">
+            <div class="container">
+            <h3 class="about__title">Please join us for a jolly night of<br>
                 food, drinks, eggnog and mistletoe!</h3>
-                <ul class="second-list">
-                    <li class="second-item one">
+                <ul class="about__list">
+                    <li class="about__item one">
                       
-                        <h4 class="second-item-title">What?</h4>
-                        <p class="second-item-text">We'll be serving a full meal and<br> have the house decked out</p>
+                        <h4 class="about__item-title">What?</h4>
+                        <p class="about__item-text">We'll be serving a full meal and<br> have the house decked out</p>
                     </li>
-                    <li class="second-item two">
-                        <h4 class="second-item-title">Where?</h4>
-                        <p class="second-item-text">500 Terry Francine Street<br>
+                    <li class="about__item two">
+                        <h4 class="about__item-title">Where?</h4>
+                        <p class="about__item-text">500 Terry Francine Street<br>
                             San Francisco, CA 94158</p>
                     </li>
-                    <li class="second-item three">
-                        <p class="second-item-text">Dec 19, 2035, 7:00 PM</p>
-                    </li>
                 </ul>
+                    <div class="about__card">
+                        <p class="about__item-text">Dec 19, 2035, 7:00 PM</p>
+                    </div>
+            </div>
         </section>
-
-    </main>
-    <footer>
-
-    </footer>
+    
+    <section class="contacts">
+        <div class="container">
+<div class="contacts__img">
+    <img src="img/wine.webp" alt="">
+</div>
+<h3 class="contacts__title">No need to bring anything other than yourselves.
+    We cannot wait to see you there!</h3>
+<h4 class="contacts__subtitle">Contact us</h4>
+<p class="contacts__text">Call Steve or Marisol at 123-456-7890
+    or leave us a message:</p>
+    <form class="contacts__form">
+        <label class="contacts__form-label">
+            <input class="contacts__form-input" type="text" placeholder="Full Name">
+        </label>
+        <label class="contacts__form-label">
+            <input class="contacts__form-input" type="tel" placeholder="Phone">
+        </label>
+        <label class="contacts__form-label">
+            <input class="contacts__form-input" type="text" placeholder="Add a message...">
+        </label>
+        <button class="contacts__form-btn">SUBMIT</button>
+    </form>
+</div>
+</section>
+</main>
+<footer class="footer">
+    <div class="footer__div">
+        <img src="img/symbol-defs.svg#icon-facebook" alt="">
+        <img src="img/symbol-defs.svg#icon-twitter" alt="">
+        <img src="img/symbol-defs.svg#icon-instagram" alt="">
+    </div>
+    </ul>
+</footer>
 </body>
 </html>
